@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingUpActivity">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/gradient_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <EditText
+            android:id="@+id/emailEditTextSign"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="E m a i l "
+            android:inputType="textEmailAddress"
+            android:lineSpacingExtra="8sp"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:layout_marginTop="15dp"
+            />
+
+        <EditText
+            android:id="@+id/passwordEditTextSign"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="P a s s w o r d "
+            android:inputType="textPassword"
+            android:lineSpacingExtra="8sp"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:layout_marginTop="15dp"
+            />
+
+        <EditText
+            android:id="@+id/passwordSecondEditTextSign"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="P a s s w o r d "
+            android:inputType="textPassword"
+            android:lineSpacingExtra="8sp"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:layout_marginTop="15dp"
+            />
+
+        <Button
+            android:id="@+id/singUpBTN"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:background="@drawable/round_btn"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Already have account? Login!"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textSize="14sp"
+            android:layout_marginTop="15dp"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressbarSign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

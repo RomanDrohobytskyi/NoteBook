@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".notatki.NoteActivity">
+
+    <EditText
+        android:id="@+id/note_et_title"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:hint="Nadgłówek"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:src="@drawable/line_background" />
+
+    <EditText
+        android:id="@+id/note_et_content"
+        android:layout_width="match_parent"
+        android:layout_height="565dp"
+        android:layout_below="@+id/note_et_title"
+        android:layout_alignEnd="@+id/note_et_title"
+        android:layout_alignRight="@+id/note_et_title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Treść"
+        android:inputType="textMultiLine"
+        android:textAlignment="center" />
+
+</RelativeLayout>

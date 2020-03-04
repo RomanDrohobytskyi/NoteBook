@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "783647519865",
+    "firebase_url": "https://fire-android-prj.firebaseio.com",
+    "project_id": "fire-android-prj",
+    "storage_bucket": "fire-android-prj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783647519865:android:1aad6d0fc91476c5",
+        "android_client_info": {
+          "package_name": "com.example.notebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783647519865-k8bcl37bo1l5o8v0l38gcak5ho5ej28v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMjwO8IbdvvMuWDs7mMRnjXbt-gVnlK9s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
